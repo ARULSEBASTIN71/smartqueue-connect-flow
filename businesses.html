@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Businesses - SmartQueue</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="header">
+      <div class="logo">
+        <h1>SmartQueue</h1>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#" class="active">Businesses</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="login.html" class="login-btn">Login</a></li>
+          <li><a href="register.html" class="register-btn">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="businesses-hero">
+        <h2>Find Businesses</h2>
+        <div class="search-container">
+          <input type="text" id="business-search" placeholder="Search for businesses...">
+          <button id="search-btn">Search</button>
+        </div>
+        <div class="filter-container">
+          <select id="category-filter">
+            <option value="">All Categories</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="banking">Banking</option>
+            <option value="government">Government</option>
+            <option value="retail">Retail</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="businesses-list">
+        <div id="businesses-container">
+          <!-- Business cards will be loaded here by JavaScript -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>SmartQueue</h2>
+        </div>
+        <div class="footer-links">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Businesses</a></li>
+            <li><a href="how-it-works.html">How It Works</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p>Email: info@smartqueue.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SmartQueue. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
