@@ -1,86 +1,73 @@
+# Welcome to your Lovable project
 
-# SmartQueue Application
+## Project info
 
-SmartQueue is a web application that helps users avoid long waiting lines by providing digital queue management and appointment scheduling for various businesses.
+**URL**: https://lovable.dev/projects/0c1b3376-21f6-47df-b7f1-100b0dd7e213
 
-## Technology Stack
+## How can I edit this code?
 
-- **Frontend**: HTML, CSS, JavaScript (Vanilla)
-- **Backend**: Python (Flask)
-- **Database**: SQLite
+There are several ways of editing your application.
 
-## Features
+**Use Lovable**
 
-- Browse businesses by category
-- Search for specific businesses
-- View business details including services and reviews
-- Get a virtual queue token for a business
-- Schedule appointments for specific services
-- User authentication and profile management
+Simply visit the [Lovable Project](https://lovable.dev/projects/0c1b3376-21f6-47df-b7f1-100b0dd7e213) and start prompting.
 
-## Setup Instructions
+Changes made via Lovable will be committed automatically to this repo.
 
-### Prerequisites
+**Use your preferred IDE**
 
-- Python 3.7 or higher
-- pip (Python package installer)
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Installation
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/smartqueue.git
-   cd smartqueue
-   ```
+Follow these steps:
 
-2. Create a virtual environment (optional but recommended):
-   ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-3. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-4. Initialize the database (this happens automatically when you run the app for the first time)
+# Step 3: Install the necessary dependencies.
+npm i
 
-5. Run the application:
-   ```
-   python app.py
-   ```
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-6. Open your browser and navigate to:
-   ```
-   http://localhost:5000
-   ```
+**Edit a file directly in GitHub**
 
-## Project Structure
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-- `app.py` - Main Flask application
-- `index.html` - Homepage
-- `businesses.html` - Businesses listing page
-- `business-detail.html` - Business details page
-- `login.html` - Login page
-- `styles.css` - Global CSS styles
-- `script.js` - Global JavaScript functionality
-- `business-detail.js` - Business detail page functionality
-- `auth.js` - Authentication functionality
-- `schema.sql` - Database schema
-- `smart_queue.db` - SQLite database file (generated when app runs)
+**Use GitHub Codespaces**
 
-## API Endpoints
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-- `POST /api/login` - User login
-- `POST /api/register` - User registration
-- `GET /api/businesses` - Get all businesses
-- `GET /api/business/:id` - Get business details
-- `POST /api/token` - Create a queue token
-- `GET /api/token/:id` - Get token details
-- `POST /api/appointment` - Schedule an appointment
-- `GET /api/appointment/:id` - Get appointment details
+## What technologies are used for this project?
 
-## License
+This project is built with:
 
-This project is licensed under the MIT License.
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/0c1b3376-21f6-47df-b7f1-100b0dd7e213) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes it is!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
